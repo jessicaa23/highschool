@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #111827;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+
+    padding: 0 16vw;
+    min-height: 100vh;
+}
+
+main section .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6.4rem;
+}
+
+.cabeçalho {
+    font-size: 40px;
+    color: white;
+
+}
+
+.form {
+    width: 480px;
+    height: 476px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+form {
+    margin-top: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.loginH{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.email, .password{
+    width: 400px;
+height: 48px;
+
+background-position: 10px;
+padding-left: 35px;
+background-repeat: no-repeat;
+border-radius: 4px;
+background-color: rgba(113, 128, 185, 0.32);
+}
+.email{
+    background-image: url(./img/EnvelopeSimple.svg);
+}
+.password{
+    background-image: url(./img/Lock.svg);
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    height: 48px;
+    width: 400px;
+
+    background: #7180B9;
+}
+
+.github{
+    display: flex;
+    
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    padding: 10px 35px;
+    gap: 10px;
+
+ background: #7180B9;
+border-radius: 4px;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
